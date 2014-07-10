@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form系のタグの確認</title>
+</head>
+<body>
+<form action="hoge.php">
+
+<h3>テキストボックス</h3>
+<p>デフォルト<br>
+<input type="text" name="textbox1"></p>
+
+<p>幅を指定<br>
+<input type="text" name="textbox2" size="50"></p>
+
+<p>最大文字数を指定<br>
+<input type="text" name="textbox3" size="50" maxlength="10"></p>
+
+<p>初期値を指定<br>
+<input type="text" name="textbox4" size="50" value="こんにちは"></p>
+
+<p>部品を無効化する<br>
+<input type="text" name="textbox5" size="50" value="こんにちは" disabled></p>
+
+<p>書き換えを禁止する<br>
+<input type="text" name="textbox6" size="50" value="こんにちは" readonly></p>
+
+<h3>パスワード</h3>
+<p><input type="password" name="c2" value="パスワード入力欄"></p>
+
+<h3>ラジオボタン</h3>
+<p><input type="radio" name="c3" value="ラジオボタン"></p>
+
+<h3>チェックボックス</h3>
+<p><input type="checkbox" name="c4" value="チェックボックス"></p>
+
+<h3>ファイル選択</h3>
+<p><input type="file" name="c5" value="ファイル選択"></p>
+
+<h3>隠しデータ</h3>
+<p><input type="hidden" name="c6" value="隠しデータ"></p>
+
+<h3>汎用ボタン</h3>
+<p><input type="button" value="汎用ボタン"></p>
+
+<h3>テキストエリア</h3>
+<p><textarea name="textbox" cols="50" rows="10"></textarea></p>
+
+<h3>セレクトボックス</h3>
+<p>
+<select name="textbox">
+<option value="サンプル1">サンプル1</option>
+<option value="サンプル2">サンプル2</option>
+<option value="サンプル3">サンプル3</option>
+</select>
+</p>
+
+<h3>リセットボタン</h3>
+<p><input type="reset" value="リセットボタン"></p>
+
+<h3>送信ボタン</h3>
+<p><input type="submit" value="送信ボタン"></p>
+
+</form>
+</body>
+</html>
